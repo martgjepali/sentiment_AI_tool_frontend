@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap");
+
+:root {
+  --primary-color: #183d3d;
+  --secondary-color: #040d12;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.bold-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.madefor-text {
+  font-family: "Wix Madefor Text", serif;
+}
